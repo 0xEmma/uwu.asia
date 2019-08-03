@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+body {
+    padding: 1%;
+    background-color: powderblue;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.container {
+    text-align: center;
+    width: 99%;
+    height: 99%;
+}
+.header {
+    position: absolute;
+    text-align: center;
+    left: 30%;
+    border-color: lightblue;
+    border-radius 200px;
+}
+
+#poison { 
+    font-size: 25px;
+}
+.footer {
+    position: absolute;
+    top: 90%;
+    bottom: 0;
+    width: auto;
+    height: 2.5rem;  
+    text-align: center;
+    left: 45%;
+}
