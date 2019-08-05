@@ -55,6 +55,12 @@
             }
             
         }
+        window.onbeforeunload = function (e) {
+            var i;
+            for(i = 0; i >= 0; i++){
+                alert("No, Your stuck in this hell");   
+            }
+        }
         function heyWeeaboo() {
             var wea = document.getElementById("wea");
             wea.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/50kLk44V_w8?autoplay=1"
