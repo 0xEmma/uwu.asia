@@ -39,7 +39,7 @@
             </div>
             <div class="exit">
                 <center>
-                    <button onclick="window.location.href='https://www.youtube.com/watch?v=S5RRCyCkiCk'" class="btn btn-danger">Exit</button>
+                    <button onclick="pleaseHelpMe();" class="btn btn-danger">Exit</button>
                 </center>
             </div>
         </div>
@@ -80,6 +80,12 @@
         function cancer() {
             var wea = document.getElementById("wea");
             wea.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/Mz3Mi_OZYno?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        }
+        function pleaseHelpMe() {
+            var i;
+            for(i = 0; i < 100; i++){
+                window.open("https://www.youtube.com/watch?v=S5RRCyCkiCk");
+            }
         }
     </script>
     </div>
