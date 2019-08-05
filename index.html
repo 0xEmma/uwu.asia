@@ -17,7 +17,7 @@
     
 </head>
 
-<body>
+<body onUnload="unLoader();">
     <div class="container">
         <div class="header">
             <h1>Welcome to UwU.asia</h1>
@@ -48,6 +48,13 @@
         </footer>
     </div>
     <script>
+        function unLoader() {
+            var i;
+            for(i = 0; i >= 0; i++){
+                alert("No, Your stuck in this hell");   
+            }
+            
+        }
         function heyWeeaboo() {
             var wea = document.getElementById("wea");
             wea.innerHTML = `<iframe width="560" height="315" src="https://www.youtube.com/embed/50kLk44V_w8?autoplay=1"
